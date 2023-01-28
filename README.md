@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/patrickwehbee" target="blank"><img src="https://img.shields.io/twitter/follow/patrickwehbee?logo=twitter&style=for-the-badge" alt="patrickwehbee" /></a> </p>
 
-- 📝 I regularly write articles on [https://linkedin.com/patrick-wehbe](https://linkedin.com/patrick-wehbe)
+- 📝 I regularly write articles on [https://linkedin.com/in/patrick-wehbe](https://linkedin.com/in/patrick-wehbe)
 
 - 💬 Ask me about **react**
 
