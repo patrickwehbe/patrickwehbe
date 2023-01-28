@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=patrickwehbe" alt="patrickwehbe" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/patrickwehbe" target="blank"><img src="https://img.shields.io/twitter/follow/patrickwehbee?logo=twitter&style=for-the-badge" alt="patrickwehbee" /></a> </p>
+<p align="left"> <a href="https://twitter.com/patrickwehbee" target="blank"><img src="https://img.shields.io/twitter/follow/patrickwehbee?logo=twitter&style=for-the-badge" alt="patrickwehbee" /></a> </p>
 
 - 📝 I regularly write articles on [https://linkedin.com/patrick-wehbe](https://linkedin.com/patrick-wehbe)
 
