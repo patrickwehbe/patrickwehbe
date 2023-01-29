@@ -9,7 +9,7 @@
 
 - 📝 I regularly write articles on [https://linkedin.com/in/patrick-wehbe](https://linkedin.com/in/patrick-wehbe)
 
-- 💬 Ask me about **react**
+- 💬 Ask me about **React**, **Typescript**, **Full Stack Development** * **DevOps**
 
 - 📫 How to reach me **patrick.wehbe.applications@gmail.com**
 
