@@ -9,11 +9,11 @@
 
 - 📝 I regularly write articles on [https://linkedin.com/in/patrick-wehbe](https://linkedin.com/in/patrick-wehbe)
 
-- 💬 Ask me about **React**, **Typescript**, **Full Stack Development** * **DevOps**
+- 💬 Ask me about **React**, **Typescript**, **Full Stack Development**, **DevOps**
 
 - 📫 How to reach me **patrick.wehbe.applications@gmail.com**
 
-- ⚡ Fun fact **I worked at 6 different startups all around the world before graduation)**
+- ⚡ Fun fact **I worked at 6 different startups all around the world before graduation**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
