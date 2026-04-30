@@ -52,15 +52,15 @@ const patrick = {
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=patrickwehbe&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="stats" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=patrickwehbe&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&cache_seconds=86400&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="stats" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=patrickwehbe&layout=compact&langs_count=10&hide=html,css,scss&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="top-langs" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=patrickwehbe&layout=compact&langs_count=10&hide=html,css,scss&hide_border=true&cache_seconds=86400&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="top-langs" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=patrickwehbe&hide_border=true&background=0d1117&stroke=0d1117&ring=58A6FF&fire=58A6FF&currStreakNum=58A6FF&sideNums=c9d1d9&currStreakLabel=58A6FF&sideLabels=c9d1d9&dates=8b949e" alt="streak" />
+  <img src="https://streak-stats.demolab.com?user=patrickwehbe&hide_border=true&cache_seconds=86400&background=0d1117&stroke=0d1117&ring=58A6FF&fire=58A6FF&currStreakNum=58A6FF&sideNums=c9d1d9&currStreakLabel=58A6FF&sideLabels=c9d1d9&dates=8b949e" alt="streak" />
 </p>
 
 <p align="center">
