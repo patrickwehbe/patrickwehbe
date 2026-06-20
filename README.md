@@ -89,6 +89,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 - **[adobe/react-spectrum](https://github.com/adobe/react-spectrum)** — Collections docs · [#10232](https://github.com/adobe/react-spectrum/pull/10232) · TableView example fix · [#10233](https://github.com/adobe/react-spectrum/pull/10233) · exported `DayOfWeek` type · [#10234](https://github.com/adobe/react-spectrum/pull/10234) · ComboBox docs · [#10222](https://github.com/adobe/react-spectrum/pull/10222)
 - **[radix-ui/primitives](https://github.com/radix-ui/primitives)** — allowed `virtualRef` to accept `RefObject<Measurable | null>` for React 19 · [#3969](https://github.com/radix-ui/primitives/pull/3969)
 - **[reactjs/react.dev](https://github.com/reactjs/react.dev)** — fixed an outdated CodeSandbox console note · [#8479](https://github.com/reactjs/react.dev/pull/8479) · updated the IE / React 18 browser-support note · [#8480](https://github.com/reactjs/react.dev/pull/8480)
+- **[TanStack/form](https://github.com/TanStack/form)** — corrected docs that wrongly said `withFieldGroup` props are unused at runtime · [#2217](https://github.com/TanStack/form/pull/2217)
 
 </details>
 
