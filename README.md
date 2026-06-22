@@ -42,7 +42,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 
 <img src="https://img.shields.io/badge/Projects-30%2B-58A6FF?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Pull_Requests-50%2B-8957E5?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Merged-9_%26_counting-3FB950?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Merged-12_%26_counting-3FB950?style=for-the-badge" />
 
 </div>
 
@@ -57,7 +57,9 @@ I contribute fixes and improvements upstream to the libraries I build with every
 | [**cli/cli**](https://github.com/cli/cli) | Fixed a dead anchor link in the release-process docs | [#13688](https://github.com/cli/cli/pull/13688) |
 | [**tj/commander.js**](https://github.com/tj/commander.js) | Fixed two syntax errors in shipped JSDoc `@example` blocks | [#2536](https://github.com/tj/commander.js/pull/2536) |
 | [**mrousavy/react-native-mmkv**](https://github.com/mrousavy/react-native-mmkv) | Fixed a broken README example and deprecated `size` usage | [#1073](https://github.com/mrousavy/react-native-mmkv/pull/1073) |
-| [**software-mansion/react-native-reanimated**](https://github.com/software-mansion/react-native-reanimated) | Updated the `getRelativeCoords` example to the v4 Gesture API | [#9713](https://github.com/software-mansion/react-native-reanimated/pull/9713) |
+| [**mrousavy/react-native-vision-camera**](https://github.com/mrousavy/react-native-vision-camera) | Fixed incorrect API examples and a wrong default in the camera docs | [#4030](https://github.com/mrousavy/react-native-vision-camera/pull/4030) |
+| [**software-mansion/react-native-reanimated**](https://github.com/software-mansion/react-native-reanimated) | Updated the `getRelativeCoords` example to the v4 Gesture API; fixed deprecated Babel plugin names | [#9713](https://github.com/software-mansion/react-native-reanimated/pull/9713) · [#9714](https://github.com/software-mansion/react-native-reanimated/pull/9714) |
+| [**sindresorhus/ora**](https://github.com/sindresorhus/ora) | Fixed type definitions that contradicted the implementation | [#257](https://github.com/sindresorhus/ora/pull/257) |
 | [**expo/orbit**](https://github.com/expo/orbit) | Fixed the iOS physical-device launch error message | [#348](https://github.com/expo/orbit/pull/348) |
 
 #### 📋 Contributions by ecosystem
@@ -68,10 +70,8 @@ I contribute fixes and improvements upstream to the libraries I build with every
 
 - **[expo/eas-cli](https://github.com/expo/eas-cli)** — corrected `channel:pause`/`resume` arg descriptions · [#3887](https://github.com/expo/eas-cli/pull/3887) · fixed `update:republish` description · [#3888](https://github.com/expo/eas-cli/pull/3888)
 - **[software-mansion/react-native-svg](https://github.com/software-mansion/react-native-svg)** — added `xmlns`/`xmlnsXlink` to `SvgProps` · [#2982](https://github.com/software-mansion/react-native-svg/pull/2982) · added HTTP `headers` to `SvgUri` · [#2983](https://github.com/software-mansion/react-native-svg/pull/2983)
-- **[software-mansion/react-native-reanimated](https://github.com/software-mansion/react-native-reanimated)** — fixed deprecated Babel plugin names + an escaped doc link · [#9714](https://github.com/software-mansion/react-native-reanimated/pull/9714)
 - **[callstack/react-native-paper](https://github.com/callstack/react-native-paper)** — forwarded the press event to a Tooltip's wrapped child · [#5010](https://github.com/callstack/react-native-paper/pull/5010)
 - **[callstack/react-native-slider](https://github.com/callstack/react-native-slider)** — declared `react`/`react-native` as peer dependencies · [#817](https://github.com/callstack/react-native-slider/pull/817)
-- **[mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera)** — fixed incorrect API examples in the docs · [#4030](https://github.com/mrousavy/react-native-vision-camera/pull/4030)
 - **[react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview)** — corrected a wrong documented default + an invalid union value · [#3964](https://github.com/react-native-webview/react-native-webview/pull/3964)
 - **[react-native-elements](https://github.com/react-native-elements/react-native-elements)** — narrowed `ButtonProps` children for React 19 · [#4033](https://github.com/react-native-elements/react-native-elements/pull/4033) · aligned `ListItem` prop types · [#4034](https://github.com/react-native-elements/react-native-elements/pull/4034)
 - **[react-native-datetimepicker](https://github.com/react-native-datetimepicker/datetimepicker)** — corrected an iOS Flow prop type · [#1048](https://github.com/react-native-datetimepicker/datetimepicker/pull/1048)
@@ -99,7 +99,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 
 - **[prettier/prettier](https://github.com/prettier/prettier)** — stopped treating SCSS `!default`/`!global` inside strings as flags · [#19404](https://github.com/prettier/prettier/pull/19404)
 - **[fastapi/fastapi](https://github.com/fastapi/fastapi)** — fixed dead/renamed doc links and out-of-range code highlights across the docs · [#15811](https://github.com/fastapi/fastapi/pull/15811) · [#15812](https://github.com/fastapi/fastapi/pull/15812) · [#15814](https://github.com/fastapi/fastapi/pull/15814) · [#15815](https://github.com/fastapi/fastapi/pull/15815) · [#15816](https://github.com/fastapi/fastapi/pull/15816)
-- **[sindresorhus/ora](https://github.com/sindresorhus/ora)** — fixed type definitions that contradicted the implementation · [#257](https://github.com/sindresorhus/ora/pull/257)
+- **[unjs/h3](https://github.com/h3js/h3)** — corrected the `decodeURIComponent` description for the router-param helpers · [#1419](https://github.com/h3js/h3/pull/1419)
 - **[yargs/yargs](https://github.com/yargs/yargs)** — fixed broken links in `api.md` · [#2549](https://github.com/yargs/yargs/pull/2549)
 - **[cli/cli](https://github.com/cli/cli)** — fixed a broken install command + link/grammar errors · [#13690](https://github.com/cli/cli/pull/13690)
 
@@ -110,6 +110,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 <br/>
 
 - **[django/asgiref](https://github.com/django/asgiref)** — wrapped `async_to_sync` with `functools.update_wrapper` · [#565](https://github.com/django/asgiref/pull/565)
+- **[encode/uvicorn](https://github.com/encode/uvicorn)** — stringified `SERVER_PORT` in the WSGI environ per PEP 3333 · [#3002](https://github.com/Kludex/uvicorn/pull/3002)
 - **[rust-itertools/itertools](https://github.com/rust-itertools/itertools)** — used saturating arithmetic to avoid `usize` overflow panics · [#1109](https://github.com/rust-itertools/itertools/pull/1109) · bounded the `TakeWhileInclusive` `FusedIterator` impl on a fused inner iterator · [#1110](https://github.com/rust-itertools/itertools/pull/1110)
 - **[ArchipelagoMW/Archipelago](https://github.com/ArchipelagoMW/Archipelago)** — seven fixes across the Launcher, Core, WebHost, Utils &amp; docs · [#6271](https://github.com/ArchipelagoMW/Archipelago/pull/6271) · [#6272](https://github.com/ArchipelagoMW/Archipelago/pull/6272) · [#6273](https://github.com/ArchipelagoMW/Archipelago/pull/6273) · [#6274](https://github.com/ArchipelagoMW/Archipelago/pull/6274) · docs [#6264](https://github.com/ArchipelagoMW/Archipelago/pull/6264)–[#6266](https://github.com/ArchipelagoMW/Archipelago/pull/6266)
 
