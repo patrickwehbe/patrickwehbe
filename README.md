@@ -42,7 +42,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 
 <img src="https://img.shields.io/badge/Projects-30%2B-58A6FF?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Pull_Requests-50%2B-8957E5?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Merged-12_%26_counting-3FB950?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Merged-14_%26_counting-3FB950?style=for-the-badge" />
 
 </div>
 
@@ -52,7 +52,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 |:--|:--|:--|
 | [**tokio-rs/tokio**](https://github.com/tokio-rs/tokio) | Corrected the reversed poll-order description in the `timeout` docs | [#8214](https://github.com/tokio-rs/tokio/pull/8214) |
 | [**pmndrs/react-spring**](https://github.com/pmndrs/react-spring) | Passed an `AnimationResult` to `SpringValue`'s `onChange` callback | [#2548](https://github.com/pmndrs/react-spring/pull/2548) |
-| [**adobe/react-spectrum**](https://github.com/adobe/react-spectrum) | Fixed a `TableView` empty-state example dropping its `TableBody` tag | [#10233](https://github.com/adobe/react-spectrum/pull/10233) |
+| [**adobe/react-spectrum**](https://github.com/adobe/react-spectrum) | Exported the `DayOfWeek` type from `@internationalized/date`; fixed a `TableView` empty-state example; documented ComboBox's default filter | [#10234](https://github.com/adobe/react-spectrum/pull/10234) · [#10233](https://github.com/adobe/react-spectrum/pull/10233) · [#10222](https://github.com/adobe/react-spectrum/pull/10222) |
 | [**agronholm/anyio**](https://github.com/agronholm/anyio) | Added a missing `await` to a file-I/O concurrency example | [#1182](https://github.com/agronholm/anyio/pull/1182) |
 | [**cli/cli**](https://github.com/cli/cli) | Fixed a dead anchor link in the release-process docs | [#13688](https://github.com/cli/cli/pull/13688) |
 | [**tj/commander.js**](https://github.com/tj/commander.js) | Fixed two syntax errors in shipped JSDoc `@example` blocks | [#2536](https://github.com/tj/commander.js/pull/2536) |
@@ -86,7 +86,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 <summary><b>⚛️&nbsp; React (web)</b></summary>
 <br/>
 
-- **[adobe/react-spectrum](https://github.com/adobe/react-spectrum)** — Collections docs · [#10232](https://github.com/adobe/react-spectrum/pull/10232) · exported `DayOfWeek` type · [#10234](https://github.com/adobe/react-spectrum/pull/10234) · ComboBox docs · [#10222](https://github.com/adobe/react-spectrum/pull/10222)
+- **[adobe/react-spectrum](https://github.com/adobe/react-spectrum)** — documented updating collection structure · [#10232](https://github.com/adobe/react-spectrum/pull/10232)
 - **[radix-ui/primitives](https://github.com/radix-ui/primitives)** — allowed `virtualRef` to accept `RefObject<Measurable | null>` for React 19 · [#3969](https://github.com/radix-ui/primitives/pull/3969)
 - **[reactjs/react.dev](https://github.com/reactjs/react.dev)** — fixed an outdated CodeSandbox console note · [#8479](https://github.com/reactjs/react.dev/pull/8479) · updated the IE / React 18 browser-support note · [#8480](https://github.com/reactjs/react.dev/pull/8480)
 - **[TanStack/form](https://github.com/TanStack/form)** — corrected docs that wrongly said `withFieldGroup` props are unused at runtime · [#2217](https://github.com/TanStack/form/pull/2217)
@@ -98,6 +98,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 <br/>
 
 - **[prettier/prettier](https://github.com/prettier/prettier)** — stopped treating SCSS `!default`/`!global` inside strings as flags · [#19404](https://github.com/prettier/prettier/pull/19404)
+- **[colinhacks/zod](https://github.com/colinhacks/zod)** — updated the `keyof()` `ZodEnum` type display to the Zod 4 form · [#6124](https://github.com/colinhacks/zod/pull/6124)
 - **[fastapi/fastapi](https://github.com/fastapi/fastapi)** — fixed dead/renamed doc links and out-of-range code highlights across the docs · [#15811](https://github.com/fastapi/fastapi/pull/15811) · [#15812](https://github.com/fastapi/fastapi/pull/15812) · [#15814](https://github.com/fastapi/fastapi/pull/15814) · [#15815](https://github.com/fastapi/fastapi/pull/15815) · [#15816](https://github.com/fastapi/fastapi/pull/15816)
 - **[unjs/h3](https://github.com/h3js/h3)** — corrected the `decodeURIComponent` description for the router-param helpers · [#1419](https://github.com/h3js/h3/pull/1419)
 - **[yargs/yargs](https://github.com/yargs/yargs)** — fixed broken links in `api.md` · [#2549](https://github.com/yargs/yargs/pull/2549)
@@ -111,7 +112,9 @@ I contribute fixes and improvements upstream to the libraries I build with every
 
 - **[django/asgiref](https://github.com/django/asgiref)** — wrapped `async_to_sync` with `functools.update_wrapper` · [#565](https://github.com/django/asgiref/pull/565)
 - **[encode/uvicorn](https://github.com/encode/uvicorn)** — stringified `SERVER_PORT` in the WSGI environ per PEP 3333 · [#3002](https://github.com/Kludex/uvicorn/pull/3002)
+- **[encode/starlette](https://github.com/encode/starlette)** — corrected the `GZipMiddleware` `compresslevel` range to 0-9 · [#3342](https://github.com/Kludex/starlette/pull/3342)
 - **[rust-itertools/itertools](https://github.com/rust-itertools/itertools)** — used saturating arithmetic to avoid `usize` overflow panics · [#1109](https://github.com/rust-itertools/itertools/pull/1109) · bounded the `TakeWhileInclusive` `FusedIterator` impl on a fused inner iterator · [#1110](https://github.com/rust-itertools/itertools/pull/1110)
+- **[clap-rs/clap](https://github.com/clap-rs/clap)** — corrected the `hide_long_help` next-line-help note to reference `-h` · [#6416](https://github.com/clap-rs/clap/pull/6416)
 - **[ArchipelagoMW/Archipelago](https://github.com/ArchipelagoMW/Archipelago)** — seven fixes across the Launcher, Core, WebHost, Utils &amp; docs · [#6271](https://github.com/ArchipelagoMW/Archipelago/pull/6271) · [#6272](https://github.com/ArchipelagoMW/Archipelago/pull/6272) · [#6273](https://github.com/ArchipelagoMW/Archipelago/pull/6273) · [#6274](https://github.com/ArchipelagoMW/Archipelago/pull/6274) · docs [#6264](https://github.com/ArchipelagoMW/Archipelago/pull/6264)–[#6266](https://github.com/ArchipelagoMW/Archipelago/pull/6266)
 
 </details>
