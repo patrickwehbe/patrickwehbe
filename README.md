@@ -42,7 +42,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 
 <img src="https://img.shields.io/badge/Projects-30%2B-58A6FF?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Pull_Requests-50%2B-8957E5?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Merged-14_%26_counting-3FB950?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Merged-15_%26_counting-3FB950?style=for-the-badge" />
 
 </div>
 
@@ -97,6 +97,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 <summary><b>🧰&nbsp; Developer tooling &amp; libraries</b></summary>
 <br/>
 
+- **[honojs/hono](https://github.com/honojs/hono)** — fixed a broken `contextStorage` JSDoc example (unterminated string + missing `return`) · [#5039](https://github.com/honojs/hono/pull/5039)
 - **[prettier/prettier](https://github.com/prettier/prettier)** — stopped treating SCSS `!default`/`!global` inside strings as flags · [#19404](https://github.com/prettier/prettier/pull/19404)
 - **[colinhacks/zod](https://github.com/colinhacks/zod)** — updated the `keyof()` `ZodEnum` type display to the Zod 4 form · [#6124](https://github.com/colinhacks/zod/pull/6124)
 - **[fastapi/fastapi](https://github.com/fastapi/fastapi)** — fixed dead/renamed doc links and out-of-range code highlights across the docs · [#15811](https://github.com/fastapi/fastapi/pull/15811) · [#15812](https://github.com/fastapi/fastapi/pull/15812) · [#15814](https://github.com/fastapi/fastapi/pull/15814) · [#15815](https://github.com/fastapi/fastapi/pull/15815) · [#15816](https://github.com/fastapi/fastapi/pull/15816)
