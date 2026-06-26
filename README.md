@@ -40,9 +40,9 @@ const patrick = {
 
 I contribute fixes and improvements upstream to the libraries I build with every day.
 
-<img src="https://img.shields.io/badge/Projects-30%2B-58A6FF?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Pull_Requests-50%2B-8957E5?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Merged-15_%26_counting-3FB950?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Projects-35%2B-58A6FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Pull_Requests-60%2B-8957E5?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Merged-16_%26_counting-3FB950?style=for-the-badge" />
 
 </div>
 
@@ -51,6 +51,8 @@ I contribute fixes and improvements upstream to the libraries I build with every
 | Project | Contribution | PR |
 |:--|:--|:--|
 | [**tokio-rs/tokio**](https://github.com/tokio-rs/tokio) | Corrected the reversed poll-order description in the `timeout` docs | [#8214](https://github.com/tokio-rs/tokio/pull/8214) |
+| [**rust-itertools/itertools**](https://github.com/rust-itertools/itertools) | Bounded the `TakeWhileInclusive` `FusedIterator` impl on a fused inner iterator | [#1110](https://github.com/rust-itertools/itertools/pull/1110) |
+| [**yargs/yargs**](https://github.com/yargs/yargs) | Fixed broken links in `api.md` | [#2549](https://github.com/yargs/yargs/pull/2549) |
 | [**pmndrs/react-spring**](https://github.com/pmndrs/react-spring) | Passed an `AnimationResult` to `SpringValue`'s `onChange` callback | [#2548](https://github.com/pmndrs/react-spring/pull/2548) |
 | [**adobe/react-spectrum**](https://github.com/adobe/react-spectrum) | Exported the `DayOfWeek` type from `@internationalized/date`; fixed a `TableView` empty-state example; documented ComboBox's default filter | [#10234](https://github.com/adobe/react-spectrum/pull/10234) · [#10233](https://github.com/adobe/react-spectrum/pull/10233) · [#10222](https://github.com/adobe/react-spectrum/pull/10222) |
 | [**agronholm/anyio**](https://github.com/agronholm/anyio) | Added a missing `await` to a file-I/O concurrency example | [#1182](https://github.com/agronholm/anyio/pull/1182) |
@@ -102,7 +104,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 - **[colinhacks/zod](https://github.com/colinhacks/zod)** — updated the `keyof()` `ZodEnum` type display to the Zod 4 form · [#6124](https://github.com/colinhacks/zod/pull/6124)
 - **[fastapi/fastapi](https://github.com/fastapi/fastapi)** — fixed dead/renamed doc links and out-of-range code highlights across the docs · [#15811](https://github.com/fastapi/fastapi/pull/15811) · [#15812](https://github.com/fastapi/fastapi/pull/15812) · [#15814](https://github.com/fastapi/fastapi/pull/15814) · [#15815](https://github.com/fastapi/fastapi/pull/15815) · [#15816](https://github.com/fastapi/fastapi/pull/15816)
 - **[unjs/h3](https://github.com/h3js/h3)** — corrected the `decodeURIComponent` description for the router-param helpers · [#1419](https://github.com/h3js/h3/pull/1419)
-- **[yargs/yargs](https://github.com/yargs/yargs)** — fixed broken links in `api.md` · [#2549](https://github.com/yargs/yargs/pull/2549)
+- **[unjs/ufo](https://github.com/unjs/ufo)** — corrected the `normalizeURL` JSDoc example output (a query-string space encodes as `+`, not `%20`) · [#357](https://github.com/unjs/ufo/pull/357)
 - **[cli/cli](https://github.com/cli/cli)** — fixed a broken install command + link/grammar errors · [#13690](https://github.com/cli/cli/pull/13690)
 
 </details>
@@ -114,7 +116,7 @@ I contribute fixes and improvements upstream to the libraries I build with every
 - **[django/asgiref](https://github.com/django/asgiref)** — wrapped `async_to_sync` with `functools.update_wrapper` · [#565](https://github.com/django/asgiref/pull/565)
 - **[encode/uvicorn](https://github.com/encode/uvicorn)** — stringified `SERVER_PORT` in the WSGI environ per PEP 3333 · [#3002](https://github.com/Kludex/uvicorn/pull/3002)
 - **[encode/starlette](https://github.com/encode/starlette)** — corrected the `GZipMiddleware` `compresslevel` range to 0-9 · [#3342](https://github.com/Kludex/starlette/pull/3342)
-- **[rust-itertools/itertools](https://github.com/rust-itertools/itertools)** — used saturating arithmetic to avoid `usize` overflow panics · [#1109](https://github.com/rust-itertools/itertools/pull/1109) · bounded the `TakeWhileInclusive` `FusedIterator` impl on a fused inner iterator · [#1110](https://github.com/rust-itertools/itertools/pull/1110)
+- **[rust-itertools/itertools](https://github.com/rust-itertools/itertools)** — used saturating arithmetic to avoid `usize` overflow panics · [#1109](https://github.com/rust-itertools/itertools/pull/1109)
 - **[clap-rs/clap](https://github.com/clap-rs/clap)** — corrected the `hide_long_help` next-line-help note to reference `-h` · [#6416](https://github.com/clap-rs/clap/pull/6416)
 - **[ArchipelagoMW/Archipelago](https://github.com/ArchipelagoMW/Archipelago)** — seven fixes across the Launcher, Core, WebHost, Utils &amp; docs · [#6271](https://github.com/ArchipelagoMW/Archipelago/pull/6271) · [#6272](https://github.com/ArchipelagoMW/Archipelago/pull/6272) · [#6273](https://github.com/ArchipelagoMW/Archipelago/pull/6273) · [#6274](https://github.com/ArchipelagoMW/Archipelago/pull/6274) · docs [#6264](https://github.com/ArchipelagoMW/Archipelago/pull/6264)–[#6266](https://github.com/ArchipelagoMW/Archipelago/pull/6266)
 
