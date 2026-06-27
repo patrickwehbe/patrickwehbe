@@ -117,7 +117,6 @@ I contribute fixes and improvements upstream to the libraries I build with every
 - **[encode/uvicorn](https://github.com/encode/uvicorn)** — stringified `SERVER_PORT` in the WSGI environ per PEP 3333 · [#3002](https://github.com/Kludex/uvicorn/pull/3002)
 - **[encode/starlette](https://github.com/encode/starlette)** — corrected the `GZipMiddleware` `compresslevel` range to 0-9 · [#3342](https://github.com/Kludex/starlette/pull/3342)
 - **[rust-itertools/itertools](https://github.com/rust-itertools/itertools)** — used saturating arithmetic to avoid `usize` overflow panics · [#1109](https://github.com/rust-itertools/itertools/pull/1109)
-- **[clap-rs/clap](https://github.com/clap-rs/clap)** — corrected the `hide_long_help` next-line-help note to reference `-h` · [#6416](https://github.com/clap-rs/clap/pull/6416)
 - **[ArchipelagoMW/Archipelago](https://github.com/ArchipelagoMW/Archipelago)** — seven fixes across the Launcher, Core, WebHost, Utils &amp; docs · [#6271](https://github.com/ArchipelagoMW/Archipelago/pull/6271) · [#6272](https://github.com/ArchipelagoMW/Archipelago/pull/6272) · [#6273](https://github.com/ArchipelagoMW/Archipelago/pull/6273) · [#6274](https://github.com/ArchipelagoMW/Archipelago/pull/6274) · docs [#6264](https://github.com/ArchipelagoMW/Archipelago/pull/6264)–[#6266](https://github.com/ArchipelagoMW/Archipelago/pull/6266)
 
 </details>
